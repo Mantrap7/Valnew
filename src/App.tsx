@@ -395,7 +395,7 @@ export function App() {
 
             <div className="rounded-2xl overflow-hidden shadow-lg mb-4">
               <img
-                src="/photos/1_1.jpeg"
+                src="./photos/1_1.jpeg"
                 alt="Fireworks celebration"
                 className="w-full max-w-sm mx-auto"
               />
