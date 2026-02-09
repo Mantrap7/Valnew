@@ -121,7 +121,18 @@ function DogSVG({ className }: { className?: string }) {
 
 /* ───────── Photo Gallery component ───────── */
 function PhotoGallery() {
-  const [photos, setPhotos] = useState<string[]>([]);
+  // REPLACE THE LINE ABOVE WITH THIS:
+const [photos, setPhotos] = useState<string[]>([
+  "/photos/1_1.jpeg",
+  "/photos/1_2.jpeg",
+  "/photos/1_3.jpeg",
+  "/photos/1_4.jpeg",
+  "/photos/1_4.jpeg",
+  "/photos/1_6.jpeg",
+  "/photos/1_7.jpeg"
+  
+  // Add as many comma-separated paths as you like!
+]);
   const fileRef = useRef<HTMLInputElement>(null);
 
   const addPhoto = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
@@ -398,7 +409,7 @@ export function App() {
                 Happy Valentine's Day, Nele! ❤️
               </p>
               <p className="text-pink-400 text-sm mt-1">
-                You make every day feel like a celebration 🥰
+                I Love You ❤️
               </p>
             </div>
 
