@@ -390,12 +390,12 @@ export function App() {
             </p>
 
             <p className="text-pink-400 text-sm mb-4">
-              Even the donkey is celebrating 🫏🎊 and the puppy is wagging its tail! 🐕💖
+              Even the donkey is celebrating and the puppy is wagging its tail! 🐕💖
             </p>
 
             <div className="rounded-2xl overflow-hidden shadow-lg mb-4">
               <img
-                src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif"
+                src="/photos/1_1-jpeg"
                 alt="Fireworks celebration"
                 className="w-full max-w-sm mx-auto"
               />
