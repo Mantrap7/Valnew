@@ -126,7 +126,7 @@ const [photos, setPhotos] = useState<string[]>([
   "./photos/1_2.jpeg",
   "./photos/1_3.jpeg",
   "./photos/1_4.jpeg",
-  "./photos/1_4.jpeg",
+  "./photos/1_5.jpeg",
   "./photos/1_6.jpeg",
   "./photos/1_7.jpeg"
   
