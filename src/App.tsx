@@ -123,12 +123,12 @@ function DogSVG({ className }: { className?: string }) {
 function PhotoGallery() {
   // REPLACE THE LINE ABOVE WITH THIS:
 const [photos, setPhotos] = useState<string[]>([
-  "/photos/1_2.jpeg",
-  "/photos/1_3.jpeg",
-  "/photos/1_4.jpeg",
-  "/photos/1_4.jpeg",
-  "/photos/1_6.jpeg",
-  "/photos/1_7.jpeg"
+  "/.photos/1_2.jpeg",
+  "/.photos/1_3.jpeg",
+  "/.photos/1_4.jpeg",
+  "/.photos/1_4.jpeg",
+  "/.photos/1_6.jpeg",
+  "/.photos/1_7.jpeg"
   
   // Add as many comma-separated paths as you like!
 ]);
@@ -395,7 +395,7 @@ export function App() {
 
             <div className="rounded-2xl overflow-hidden shadow-lg mb-4">
               <img
-                src="/photos/1_1-jpeg"
+                src="/photos/1_1.jpeg"
                 alt="Fireworks celebration"
                 className="w-full max-w-sm mx-auto"
               />
