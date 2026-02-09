@@ -123,7 +123,6 @@ function DogSVG({ className }: { className?: string }) {
 function PhotoGallery() {
   // REPLACE THE LINE ABOVE WITH THIS:
 const [photos, setPhotos] = useState<string[]>([
-  "/photos/1_1.jpeg",
   "/photos/1_2.jpeg",
   "/photos/1_3.jpeg",
   "/photos/1_4.jpeg",
